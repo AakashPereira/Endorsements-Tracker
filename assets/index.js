@@ -86,6 +86,7 @@ function addEvents() {
                     'likes': increment(1)
                 })
                 localStorage.setItem(idVal, "true")
+                likeBtns[i].classList.add("liked")
             } else {
                 alert("You've already liked this endorsement")
             }
