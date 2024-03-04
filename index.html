@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Endorsements Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <img src="https://i.imgur.com/PwJmG4z.gif" alt="" id="logo">
+            <h1>Endorsements Tracker</h1>
+            <label for="comment-input">Endorsement Comment</label>
+            <textarea id="comment-input" placeholder="Write your endorsement here"></textarea>
+            <div class="details-input-container">
+                <div>
+                    <label for="from-input">From</label>
+                    <input type="text" id="from-input" placeholder="From">
+                </div>
+                <div>
+                    <label for="to-input">To</label>
+                    <input type="text" id="to-input" placeholder="To">
+                </div>
+            </div>
+            <button id="publish-btn">Publish</button>
+            
+            <h2>- Endorsements - </h2>
+            <div class="endorsement-container" id="endorsement-container">
+            </div>
+        </div>
+        <script src="assets/index.js" type="module"></script>
+    </body>
+</html>
