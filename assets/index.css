@@ -92,3 +92,7 @@ input[type=text], textarea {
 .liked {
     filter: brightness(0%);
 }
+
+.likeBtn {
+    cursor: pointer;
+}
